@@ -1,0 +1,31 @@
+﻿# Tiled2Unity generated file. Do not modify by hand.
+# Wavefront file for 'userRoom_mesh_0006.obj'
+
+# Vertices (Count = 8)
+v -128 -64 0
+v -160 -64 0
+v -160 -32 0
+v -128 -32 0
+v -128 -96 0
+v -160 -96 0
+v -160 -64 0
+v -128 -64 0
+
+# Texture cooridinates (Count = 6)
+vt 0.875 0.9496855
+vt 1 0.9496855
+vt 1 1
+vt 0.875 1
+vt 0.875 0.8993711
+vt 1 0.8993711
+
+# Normal
+vn 0 0 -1
+
+# Mesh description
+g userRoom_mesh_0006
+
+# Faces
+f 1/1/1 2/2/1 3/3/1 4/4/1
+f 5/5/1 6/6/1 7/2/1 8/1/1
+

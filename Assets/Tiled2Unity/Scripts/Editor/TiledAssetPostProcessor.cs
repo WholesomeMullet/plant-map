@@ -135,7 +135,6 @@ namespace Tiled2Unity
 
             // We will create and assign our own materials.
             // This gives us more control over their construction.
-
             // modelImporter.importMaterials = false;
             modelImporter.materialImportMode = ModelImporterMaterialImportMode.ImportStandard;
 
