@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class MovingObject : MonoBehaviour
 {
+    public string currentMapName;  // transferMap 스크립트에 있는 transferMapName 변수의 값을 저장 
+
     private BoxCollider2D boxCollider;
     public LayerMask layerMask;             // 통과 불가능한 레이어를 설정
 
@@ -25,6 +27,7 @@ public class MovingObject : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        DontDestroyOnLoad(this.gameObject);                  // 다른 씬을 로드할 때마다 파기시키지 말 것을 명시
         boxCollider = GetComponent<BoxCollider2D>();
         // 스크립트가 시작될 때 animator로 컴포넌트 통제
         animator = GetComponent<Animator>();

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <!--Tiled2Unity generated xml data-->
 <!--Do not modify by hand-->
-<!--Last exported: 2021-08-31 오후 2:58:52-->
+<!--Last exported: 2021-09-02 오후 11:42:52-->
 <Tiled2Unity version="1.0.13.2">
   <AssignMaterial mesh="userMap_mesh_0001" material="RPG Nature Tileset Autumn" />
   <AssignMaterial mesh="userMap_mesh_0002" material="RPG Nature Tileset" />
@@ -39,17 +39,17 @@
     </GameObject>
     <GameObject name="HouseArea" x="0" y="0" z="0" layer="NoPassing">
       <ObjectLayer offsetX="0" offsetY="0" color="#ff808080" />
+      <GameObject name="RectangleObject" x="816.667" y="-227.333" rotation="0">
+        <RectangleObjectComponent tmx-object-id="47" tmx-object-name="" tmx-object-type="" tmx-object-x="816.667" tmx-object-y="227.333" tmx-object-width="136.667" tmx-object-height="170" tmx-object-rotation="0" />
+        <BoxCollider2D width="136.667" height="170" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="630" y="-230.667" rotation="0">
+        <RectangleObjectComponent tmx-object-id="48" tmx-object-name="" tmx-object-type="" tmx-object-x="630" tmx-object-y="230.667" tmx-object-width="414.667" tmx-object-height="20" tmx-object-rotation="0" />
+        <BoxCollider2D width="414.667" height="20" />
+      </GameObject>
       <GameObject name="RectangleObject" x="621.333" y="-231.333" rotation="0">
         <RectangleObjectComponent tmx-object-id="1" tmx-object-name="" tmx-object-type="" tmx-object-x="621.333" tmx-object-y="231.333" tmx-object-width="8" tmx-object-height="308" tmx-object-rotation="0" />
         <BoxCollider2D width="8" height="308" />
-      </GameObject>
-      <GameObject name="RectangleObject" x="814.667" y="-232.667" rotation="0">
-        <RectangleObjectComponent tmx-object-id="25" tmx-object-name="" tmx-object-type="" tmx-object-x="814.667" tmx-object-y="232.667" tmx-object-width="139.333" tmx-object-height="168.667" tmx-object-rotation="0" />
-        <BoxCollider2D width="139.333" height="168.667" />
-      </GameObject>
-      <GameObject name="RectangleObject" x="631.333" y="-233.333" rotation="0">
-        <RectangleObjectComponent tmx-object-id="2" tmx-object-name="" tmx-object-type="" tmx-object-x="631.333" tmx-object-y="233.333" tmx-object-width="410.667" tmx-object-height="14.6667" tmx-object-rotation="0" />
-        <BoxCollider2D width="410.667" height="14.6667" />
       </GameObject>
       <GameObject name="RectangleObject" x="963.333" y="-234" rotation="0">
         <RectangleObjectComponent tmx-object-id="24" tmx-object-name="" tmx-object-type="" tmx-object-x="963.333" tmx-object-y="234" tmx-object-width="56.6667" tmx-object-height="50.6667" tmx-object-rotation="0" />
@@ -59,9 +59,17 @@
         <RectangleObjectComponent tmx-object-id="3" tmx-object-name="" tmx-object-type="" tmx-object-x="1036" tmx-object-y="250.667" tmx-object-width="8" tmx-object-height="286" tmx-object-rotation="0" />
         <BoxCollider2D width="8" height="286" />
       </GameObject>
+      <GameObject name="RectangleObject" x="672.667" y="-267.333" rotation="0">
+        <RectangleObjectComponent tmx-object-id="44" tmx-object-name="" tmx-object-type="" tmx-object-x="672.667" tmx-object-y="267.333" tmx-object-width="63.3333" tmx-object-height="52.6667" tmx-object-rotation="0" />
+        <BoxCollider2D width="63.3333" height="52.6667" />
+      </GameObject>
       <GameObject name="RectangleObject" x="812.667" y="-290" rotation="0">
         <RectangleObjectComponent tmx-object-id="42" tmx-object-name="" tmx-object-type="" tmx-object-x="812.667" tmx-object-y="290" tmx-object-width="6" tmx-object-height="24" tmx-object-rotation="0" />
         <BoxCollider2D width="6" height="24" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="735.333" y="-290" rotation="0">
+        <RectangleObjectComponent tmx-object-id="45" tmx-object-name="" tmx-object-type="" tmx-object-x="735.333" tmx-object-y="290" tmx-object-width="31.3333" tmx-object-height="28" tmx-object-rotation="0" />
+        <BoxCollider2D width="31.3333" height="28" />
       </GameObject>
       <GameObject name="RectangleObject" x="992" y="-319.333" rotation="0">
         <RectangleObjectComponent tmx-object-id="41" tmx-object-name="" tmx-object-type="" tmx-object-x="992" tmx-object-y="319.333" tmx-object-width="31.3333" tmx-object-height="71.3333" tmx-object-rotation="0" />
