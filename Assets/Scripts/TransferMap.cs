@@ -13,12 +13,12 @@ public class TransferMap : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        thePlayer = FindObjectOfType<MovingObject>(); 
+        thePlayer = FindObjectOfType<MovingObject>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)  // Box Collider에 닿는 순간 실행되는 함수
     {
-        if(collision.gameObject.name == "Player")
+        if (collision.gameObject.name == "Player")
         {
             thePlayer.currentMapName = transferMapName;
             SceneManager.LoadScene(transferMapName);

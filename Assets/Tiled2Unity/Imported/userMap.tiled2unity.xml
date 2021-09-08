@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <!--Tiled2Unity generated xml data-->
 <!--Do not modify by hand-->
-<!--Last exported: 2021-09-02 오후 11:42:52-->
+<!--Last exported: 2021-09-09 오전 12:43:19-->
 <Tiled2Unity version="1.0.13.2">
   <AssignMaterial mesh="userMap_mesh_0001" material="RPG Nature Tileset Autumn" />
   <AssignMaterial mesh="userMap_mesh_0002" material="RPG Nature Tileset" />
@@ -102,6 +102,25 @@
       <GameObject name="RectangleObject" x="632" y="-520.667" rotation="0">
         <RectangleObjectComponent tmx-object-id="4" tmx-object-name="" tmx-object-type="" tmx-object-x="632" tmx-object-y="520.667" tmx-object-width="220" tmx-object-height="18" tmx-object-rotation="0" />
         <BoxCollider2D width="220" height="18" />
+      </GameObject>
+    </GameObject>
+    <GameObject name="MapArea" x="0" y="0" z="0" layer="NoPassing">
+      <ObjectLayer offsetX="0" offsetY="0" color="#ff808080" />
+      <GameObject name="RectangleObject" x="-75.7576" y="200" rotation="0">
+        <RectangleObjectComponent tmx-object-id="60" tmx-object-name="" tmx-object-type="" tmx-object-x="-75.7576" tmx-object-y="-200" tmx-object-width="1481.82" tmx-object-height="218.182" tmx-object-rotation="0" />
+        <BoxCollider2D width="1481.82" height="218.182" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="1281.82" y="87.8788" rotation="0">
+        <RectangleObjectComponent tmx-object-id="52" tmx-object-name="" tmx-object-type="" tmx-object-x="1281.82" tmx-object-y="-87.8788" tmx-object-width="181.818" tmx-object-height="1087.88" tmx-object-rotation="0" />
+        <BoxCollider2D width="181.818" height="1087.88" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="-160.606" y="54.5455" rotation="0">
+        <RectangleObjectComponent tmx-object-id="50" tmx-object-name="" tmx-object-type="" tmx-object-x="-160.606" tmx-object-y="-54.5455" tmx-object-width="154.545" tmx-object-height="1078.79" tmx-object-rotation="0" />
+        <BoxCollider2D width="154.545" height="1078.79" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="-21.2121" y="-945.455" rotation="0">
+        <RectangleObjectComponent tmx-object-id="61" tmx-object-name="" tmx-object-type="" tmx-object-x="-21.2121" tmx-object-y="945.455" tmx-object-width="1406.06" tmx-object-height="154.545" tmx-object-rotation="0" />
+        <BoxCollider2D width="1406.06" height="154.545" />
       </GameObject>
     </GameObject>
   </Prefab>

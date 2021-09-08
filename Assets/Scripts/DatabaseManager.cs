@@ -27,7 +27,9 @@ public class DatabaseManager : MonoBehaviour
     public float[] var;
 
     public string[] switch_name;
-    public bool[] switches;        
+    public bool[] switches; 
+
+    public List<Item> itemList = new List<Item>();
 
     // Start is called before the first frame update
     void Start()

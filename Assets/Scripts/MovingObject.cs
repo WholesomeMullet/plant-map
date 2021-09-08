@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class MovingObject : MonoBehaviour
 {
+    // stati은 정적 변수로, 해당 스크립트가 적용된 모든 객체들은 static으로 선언된 변수의 값을 공유함
+    static public MovingObject instance;
+
+    // A 캐릭터 instance = a
+    // B 캐릭터 instance = a
+
     public string currentMapName;  // transferMap 스크립트에 있는 transferMapName 변수의 값을 저장 
 
     private BoxCollider2D boxCollider;
@@ -27,10 +33,17 @@ public class MovingObject : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        DontDestroyOnLoad(this.gameObject);                  // 다른 씬을 로드할 때마다 파기시키지 말 것을 명시
-        boxCollider = GetComponent<BoxCollider2D>();
-        // 스크립트가 시작될 때 animator로 컴포넌트 통제
-        animator = GetComponent<Animator>();
+        if(instance == null)
+        {
+            DontDestroyOnLoad(this.gameObject); // 다른 씬을 로드할 때마다 파기시키지 말 것을 명시
+            boxCollider = GetComponent<BoxCollider2D>();
+            animator = GetComponent<Animator>();
+            instance = this;
+        }
+        else
+        {
+            Destroy(this.gameObject);
+        }
     }
   
     IEnumerator MoveCoroutine() 
