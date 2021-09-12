@@ -864,7 +864,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - name: footsteps1
-    clip: {fileID: 8300000, guid: f4bc9f0dc3b5a8d44b8b26b7037f2df5, type: 3}
+    clip: {fileID: 8300000, guid: 3815ac593c7329942b9979f270f55470, type: 3}
     Volumn: 1
     loop: 0
   - name: footsteps2
@@ -876,7 +876,7 @@ MonoBehaviour:
     Volumn: 1
     loop: 0
   - name: footsteps4
-    clip: {fileID: 8300000, guid: 24d812f3be4133e4c9319fe6e8c0314b, type: 3}
+    clip: {fileID: 8300000, guid: 3066da6eaa58bcb48b416f1a6f9bab5c, type: 3}
     Volumn: 1
     loop: 0
 --- !u!1 &1787099324
@@ -1133,12 +1133,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 432009c185cc2cc45910fe37c9ff1b61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  item1:
+  - itemID: 1
+    itemName: "\uC790\uC791\uB098\uBB34"
+    itemDescription: "\uC704\uB3C4\uAC00 \uB192\uC740 \uACF3\uC5D0\uC11C \uC790\uB77C\uAE30
+      \uB54C\uBB38\uC5D0 \uC2DC\uBCA0\uB9AC\uC544\uB098 \uBD81\uC720\uB7FD, \uB3D9\uC544\uC2DC\uC544
+      \uBD81\uBD80, \uBD81\uC544\uBA54\uB9AC\uCE74 \uBD81\uBD80 \uC232\uC758 \uB300\uD45C\uC801\uC778
+      \uC2DD\uBB3C. \uD65C\uC5FD\uC218."
+    itemCount: 1
+    itemIcon: {fileID: 21300000, guid: 328a7bdf7aef45f43863002fa4b28348, type: 3}
+  - itemID: 2
+    itemName: "\uCC38\uB098\uBB34"
+    itemDescription: "\uC6D0\uC2DC\uC801\uC778 \uAF43\uC744 \uD53C\uC6B0\uACE0 \uB3C4\uD1A0\uB9AC\uB77C\uB294
+      \uC5F4\uB9E4\uB97C \uB9FA\uB294\uB2E4. \uBD81\uBC18\uAD6C\uC758 \uC628\uB300\uAE30\uD6C4
+      \uC9C0\uC5ED\uC5D0\uC11C \uC8FC\uB85C \uC790\uB77C\uBA70, \uC78E\uC774 \uC5B4\uAE0B\uB098\uACE0
+      \uAC00\uC7A5\uC790\uB9AC\uC5D0 \uD1B1\uB2C8\uAC00 \uC788\uB294 \uACBD\uC6B0\uAC00
+      \uB9CE\uB2E4. \uB099\uC5FD\uD65C\uC5FD\uC218."
+    itemCount: 1
+    itemIcon: {fileID: 21300000, guid: dd81ae12f31abf04894a6b566b67254a, type: 3}
   var_name: []
   var: []
   switch_name: []
   switches: 
-  itemList:
-  - {fileID: 0}
 --- !u!4 &1963372128
 Transform:
   m_ObjectHideFlags: 0
