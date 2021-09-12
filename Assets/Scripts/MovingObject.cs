@@ -15,6 +15,13 @@ public class MovingObject : MonoBehaviour
     private BoxCollider2D boxCollider;
     public LayerMask layerMask;             // 통과 불가능한 레이어를 설정
 
+    public string walkSound_1;
+    public string walkSound_2;
+    public string walkSound_3;
+    public string walkSound_4;
+
+    private AudioManager theAudio;
+
     public float speed;
 
     private Vector3 vector;
@@ -38,6 +45,7 @@ public class MovingObject : MonoBehaviour
             DontDestroyOnLoad(this.gameObject); // 다른 씬을 로드할 때마다 파기시키지 말 것을 명시
             boxCollider = GetComponent<BoxCollider2D>();
             animator = GetComponent<Animator>();
+            theAudio = FindObjectOfType<AudioManager>();
             instance = this;
         }
         else
@@ -87,6 +95,27 @@ public class MovingObject : MonoBehaviour
 
             animator.SetBool("Walking", true);
 
+          
+            int temp = Random.Range(1, 4);
+            switch (temp)
+            {
+                case 1:
+                    theAudio.Play(walkSound_1);
+                    break;
+                case 2:
+                    theAudio.Play(walkSound_2);
+                    break;
+                case 3:
+                    theAudio.Play(walkSound_3);
+                    break;
+                case 4:
+                    theAudio.Play(walkSound_4);
+                    break;
+            }
+            theAudio.SetVolumn(walkSound_2, 0.5f);
+
+
+
             while (currentWalkCount < walkCount)
             {
                 if (vector.x != 0)
@@ -101,11 +130,14 @@ public class MovingObject : MonoBehaviour
                     currentWalkCount++;
                 currentWalkCount++;
                 yield return new WaitForSeconds(0.01f);
+
+                
             }
             currentWalkCount = 0;
         }
         animator.SetBool("Walking", false);
         canMove = true;
+
     }
 
 
