@@ -4,7 +4,7 @@ using UnityEngine;
 
 [System.Serializable]
 
-public class Item : MonoBehaviour
+public class ObItem : MonoBehaviour
 {
     [SerializeField]
     public int itemID;              // 아이템의 고유 ID값. 중복 불가능
@@ -22,7 +22,7 @@ public class Item : MonoBehaviour
     }
 
     [SerializeField]
-    public Item(int _itemID, string _itemName, string _itemDes, ItemType _itemType, int _itemCount=1) 
+    public ObItem(int _itemID, string _itemName, string _itemDes, ItemType _itemType, int _itemCount=1) 
     {
         
         itemID = _itemID;
