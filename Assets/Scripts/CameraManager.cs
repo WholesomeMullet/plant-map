@@ -22,7 +22,6 @@ public class CameraManager : MonoBehaviour
     private float halfHeight;
 
     // 카메라의 반너비, 반높이 값을 지닐 변수.
-
     private Camera theCamera;
 
     // 카메라의 반높이값을 구할 속성을 이용하기 위한 변수.
