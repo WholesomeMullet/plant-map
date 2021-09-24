@@ -56,9 +56,11 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\TestRain.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\CircleObject.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\GameObjectExtensions.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TileObject.cs" />
+    <Compile Include="Assets\Scripts\Visibility.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\Log.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\RectangleObject.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\SortingLayerExposed.cs" />
@@ -66,6 +68,7 @@
     <Compile Include="Assets\Scripts\Inventory.cs" />
     <Compile Include="Assets\Scripts\ObItem.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\ImportBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Point.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\ObjectLayer.cs" />
     <Compile Include="Assets\Scripts\InventorySlot.cs" />
     <Compile Include="Assets\Scripts\CameraManager.cs" />
@@ -78,15 +81,15 @@
     <Compile Include="Assets\Scripts\MovingObject.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\PolygonObject.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\SpriteDepthInMap.cs" />
+    <Compile Include="Assets\Scripts\Store.cs" />
     <Compile Include="Assets\Scripts\Bound.cs" />
+    <Compile Include="Assets\Scripts\WeatherManager.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TmxObject.cs" />
     <Compile Include="Assets\Scripts\TransferMap.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\TiledMap.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\GroupLayer.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\PolylineObject.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\GPUInstancing.cs" />
-    <Compile Include="Assets\Scripts\Point.cs" />
-    <Compile Include="Assets\Scripts\Visibility.cs" />
     <None Include="Assets\Tiled2Unity\License.txt" />
     <None Include="Assets\Tiled2Unity\Imported\userRoom.tiled2unity.xml" />
     <None Include="Assets\Tiled2Unity\Tiled2Unity.export.txt" />
